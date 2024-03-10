@@ -1,0 +1,12 @@
+path_home /data/huixingqi/sim_meta/HiResim
+/data/huixingqi/sim_meta/HiResim/data/env/data/3_read_python/hires
+/data/huixingqi/sim_meta/HiResim/data/env/data/3_read_python/batch/hires
+/data/huixingqi/sim_meta/HiResim/data/env/data/3_sp_read_kmer/hires21
+ok
+/data/huixingqi/sim_meta/HiResim/data/env/data/3_sp_read_kmer_sorted/hires21
+ok
+len_array_all 1
+1
+0 2
+python 3_get_sp_read.py hires 0 2 2 21 /data/huixingqi/sim_meta/HiResim /data/huixingqi/software/sra/sratoolkit/1.data/fastQ/hiresim_test
+finished

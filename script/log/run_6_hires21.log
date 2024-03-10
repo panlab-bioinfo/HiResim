@@ -1,0 +1,5 @@
+len_array 1
+my_array 0 2
+0 1
+0 2
+bash 6_read_strain_join.sh hires21 1 2 /data/huixingqi/sim_meta/HiResim

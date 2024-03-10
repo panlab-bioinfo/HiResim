@@ -1,0 +1,12 @@
+python 1_kraken.py hires 0 2 2
+Loading database information... done.
+4325569 sequences (865.11 Mbp) processed in 180.114s (1440.9 Kseq/m, 288.19 Mbp/m).
+  2138025 sequences classified (49.43%)
+  2187544 sequences unclassified (50.57%)
+Loading database information... done.
+7093402 sequences (1418.68 Mbp) processed in 80.067s (5315.6 Kseq/m, 1063.11 Mbp/m).
+  3610790 sequences classified (50.90%)
+  3482612 sequences unclassified (49.10%)
+/data/huixingqi/software/1_tools/kraken2/kraken2/kraken2 --db /dev/shm/db --memory-mapping --paired /data/huixingqi/software/sra/sratoolkit/1.data/fastQ/hiresim_test/marine_SRR3933087_1.fastq.gz /data/huixingqi/software/sra/sratoolkit/1.data/fastQ/hiresim_test/marine_SRR3933087_2.fastq.gz --use-names --output /data/huixingqi/sim_meta/HiResim/data/env/res/out/hires/marine_SRR3933087.out --report /data/huixingqi/sim_meta/HiResim/data/env/res/out/hires/marine_SRR3933087_rep.txt --threads 32 --use-mpa-style
+/data/huixingqi/software/1_tools/kraken2/kraken2/kraken2 --db /dev/shm/db --memory-mapping --paired /data/huixingqi/software/sra/sratoolkit/1.data/fastQ/hiresim_test/marine_SRR3933088_1.fastq.gz /data/huixingqi/software/sra/sratoolkit/1.data/fastQ/hiresim_test/marine_SRR3933088_2.fastq.gz --use-names --output /data/huixingqi/sim_meta/HiResim/data/env/res/out/hires/marine_SRR3933088.out --report /data/huixingqi/sim_meta/HiResim/data/env/res/out/hires/marine_SRR3933088_rep.txt --threads 32 --use-mpa-style
+bash 1_2_read_cnt_abu_newout.sh hires /data/huixingqi/sim_meta/HiResim/data/env/res/batch/hires/0_2.txt /data/huixingqi/sim_meta/HiResim
