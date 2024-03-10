@@ -33,7 +33,7 @@ python script/9_2_generate_community.py --env gut21 --n 1
 ```
 
 ### citation
-if you use MCSS, please cite:
+if you use HiResim, please cite:
 
 
 
