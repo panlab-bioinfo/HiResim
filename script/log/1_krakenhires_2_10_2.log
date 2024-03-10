@@ -1,0 +1,5 @@
+python 1_kraken.py hires 2 10 2
+Traceback (most recent call last):
+  File "/data/huixingqi/sim_meta/HiResim/script/1_kraken.py", line 16, in <module>
+    path_home= sys.argv[7]
+IndexError: list index out of range
