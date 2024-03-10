@@ -16,7 +16,6 @@ cd HiResim
 # The tool is currently developed based on amd64 POSIX and has undergone testing only on the Linux operating system.
 # We are dedicated to resolving any issues encountered by users on different operating systems and have plans to introduce support for additional systems in future updates.
 conda env create -f env_HiResim.yaml
-
 ```
     
 4. activate environment
@@ -32,7 +31,6 @@ generate community
 python script/9_2_generate_community.py --env gut21 --n 1
    
 ```
-
 
 ### citation
 if you use MCSS, please cite:
