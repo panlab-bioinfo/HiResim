@@ -19,8 +19,8 @@ path_sim = sys.argv[1] #模拟群落的文件夹
 out_name = sys.argv[2] #输出文件夹
 path_home = sys.argv[3]
 depth= sys.argv[4] #pbsim用的depth 1
-# path_abs_file = os.path.abspath(sys.argv[0])
-# path_abs = os.path.dirname(path_abs_file)
+path_abs_file = os.path.abspath(sys.argv[0])
+path_abs = os.path.dirname(path_abs_file)
 # sim_out
 sim_out = os.path.join(path_home,out_name) #创建输出文件夹的过程放到.sh中
 print(sim_out)
@@ -32,7 +32,7 @@ if not os.path.exists(path_strain_sim):
     os.makedirs(path_strain_sim)
 
 #下载strain的地址文件夹
-path_down_strain = os.path.join(path_home,"data/down_strain.csv")
+path_down_strain = os.path.join(path_home,"data/file/down_strain.csv")
 df_down = pd.read_csv(path_down_strain,header=None,sep="\t")
 df_down.columns = ["sp","acns","path","genome"]
 
