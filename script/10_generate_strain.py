@@ -17,10 +17,11 @@ path_sim = sys.argv[1] #模拟群落的文件夹
 # path_abs = sys.argv[2] #data文件的父目录
 # /data/huixingqi/sim_meta/mhrec
 out_name = sys.argv[2] #输出文件夹
-path_home = sys.argv[3]
+# path_home = sys.argv[3]
 depth= sys.argv[4] #pbsim用的depth 1
 path_abs_file = os.path.abspath(sys.argv[0])
 path_abs = os.path.dirname(path_abs_file)
+path_home = path_abs
 # sim_out
 sim_out = os.path.join(path_home,out_name) #创建输出文件夹的过程放到.sh中
 print(sim_out)
