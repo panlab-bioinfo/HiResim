@@ -26,10 +26,24 @@ conda activate env_HiResim / source activate env_HiResim
 
 ## usage
 
-generate community 
+1. generate community 
 
 ```
 python script/9_2_generate_community.py --env gut21 --n 1
+   
+```
+
+2. generate strains 
+
+```
+python script/10_generate_strain.py PATH_Hiresim/data/env/data/10_sim/gut21 sim_gut
+   
+```
+
+3. generate reads 
+
+```
+python script/10_pbsim.py PATH_Hiresim/data/env/data/10_sim/gut21/sp_strain_abu /data/huixingqi/sim_meta/HiResim/sim_gut 1
    
 ```
 
